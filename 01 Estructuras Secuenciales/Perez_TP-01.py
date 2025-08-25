@@ -33,7 +33,7 @@ print(f"Los segundo ingresados {segundos} pasados a horas equivale a {horas}")
 
 #Ejercicio6
 
-numero = int(input("Mostrando la tabla de numero que ingrese: "))
+numero = int(input("Mostrando la tabla del numero que ingrese: "))
 print(f"{numero} x 1 = {1*numero}")
 print(f"{numero} x 2 = {2*numero}")
 print(f"{numero} x 3 = {3*numero}")
