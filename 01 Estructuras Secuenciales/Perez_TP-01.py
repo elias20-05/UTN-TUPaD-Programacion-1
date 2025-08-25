@@ -65,7 +65,7 @@ print(f"Sabiendo que pesas {peso}kg y medis {altura} de altura, tu indice de mas
 
 temperatura_celsius =float(input("ingrese una temperatua en celsius: "))
 temperatura_fahrenheit= round((temperatura_celsius*9/5) + 32)
-print(f"La temperatura {temperatura_celsius} en fahrenheit es: {temperatura_fahrenheit} grados" )
+print(f"La temperatura {temperatura_celsius}, en fahrenheit es: {temperatura_fahrenheit} grados" )
 
 #Ejercicio10
 
