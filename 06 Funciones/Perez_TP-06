@@ -1,0 +1,161 @@
+#Ejericcio(1)
+
+#Definicion de funciones
+def imprimir_hola_mundo(mensaje):
+    return mensaje
+
+#programa principal
+print(imprimir_hola_mundo("hola mundo"))
+
+
+#Ejercicio(2)
+
+#Definicion de funciones
+
+def saludar_usuario(nombre):
+    return nombre
+    
+#programa principal
+
+nombre = input("por favor ingrese su nombre: ")
+print(f"hola {saludar_usuario(nombre)}")
+
+
+#Ejercicio(3)
+
+#definicion de funciones
+
+def informacion_personal(nombre, apellido,edad, residencia):
+    print(f"soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}")
+    return ""
+
+#programa principal
+
+print("Ingrese la Imformacion:")
+nombre = input("ingrese su nombre: ")
+apellido = input("ingrese su apellido: ")
+edad = int(input("ingrese su edad: "))
+residencia = input("ingrese su residencia: ")
+
+informacion_personal(nombre,apellido,edad,residencia)
+
+
+#Ejericcio(4)
+
+#definicion de funciones
+
+def calcular_area_circulo(radio):
+    area = (radio**2)*3.14
+    return area
+    
+def calcular_perimetro_circulo(radio):
+    perimetro = (2*3.14)*radio
+    return perimetro
+
+
+#programa principal
+
+radio = float(input("ingrese el radio de circulo: "))
+print(f"El area del circulo es: {calcular_area_circulo(radio)}")
+print(f"El perimetro del circulo es: {calcular_perimetro_circulo(radio)}")
+
+
+
+
+#Ejercicio(5)
+
+#definicion de funcion
+def segundos_a_horas(segundos):
+    horas = segundos/3600
+    return horas
+
+#programa principal
+segundos = int(input("ingrese una cantidad de segundos: "))
+print(f"los segundos ingresados {segundos} en horas es: {segundos_a_horas(segundos)}")
+
+
+#Ejercicio(6)
+
+#definicion de funcion
+def tabla_multiplicar(numero):
+    for i in range(1,11):
+        print(f"{numero}x{i}={numero*i}")
+    return ""
+
+#programa principal
+numero = int(input("ingrese un numero: "))
+print(f"tabla de multiplicar del numero {numero} ingresado")
+print(tabla_multiplicar(numero))
+
+
+#Ejercicio(7)
+
+#definicion de funcion
+def operaciones_basicas(a, b):
+    suma = round(a+b)
+    resta = round(a-b)
+    multiplicacion = round(a*b)
+    if b != 0:
+        division = round(a/b,2)
+    else:
+        division = "error: de division por 0"
+    return (suma,resta,multiplicacion,division)
+    
+#programa principal
+a = int(input("ingrese el primer numero: \n"))
+b = int(input("ingrese el segundo numero: \n"))
+
+resultado = operaciones_basicas(a,b)
+
+suma,resta,multiplicacion,division = resultado
+
+print(f"suma: {suma}")
+print(f"resta: {resta}")
+print(f"multiplicacion: {multiplicacion}")
+print(f"division: {division}")
+
+
+
+#Ejercicio(8)
+
+#definicion de funcion
+def calcular_imc(peso, altura):
+    masa_corporal = round(peso/altura**2,1)
+    return masa_corporal
+    
+    
+#programa principal
+print("ingrese su peso y altura para calcular su masa corporal")
+peso = float(input("ingrese su peso: "))
+altura = float(input("ingrese su altura: "))
+
+print(f"Sabiendo que pesa {peso}kg y mide {altura} de altura, su IMC es de: {calcular_imc(peso,altura)}")
+
+
+#Ejercicio(9)
+
+#definicion de funcion
+def celsius_a_fahrenheit(celsius):
+    fahrenheit = (celsius*9/5)+32
+    return fahrenheit
+    
+#programa principal
+celsius = float(input("ingrese una temperatura en grados celsius: "))
+print(f"la temperatura ingresada {celsius}, su equivalencia en fahrenheit es: {celsius_a_fahrenheit(celsius)}")
+
+
+
+#Ejercicio(10)
+
+#definicion de funcion
+def calcular_promedio(a, b, c):
+    promedio = round((a+b+c)/3)
+    return promedio
+    
+#programa principal
+print("ingrese tres numero para saber el promedio")
+a = int(input("ingrese el primer numero: "))
+b = int(input("ingrese el segundo numero: "))
+c = int(input("ingrese el tercer numero: "))
+
+print(f"El promedio de los tres numero es: {calcular_promedio(a,b,c)}")
