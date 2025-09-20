@@ -3,7 +3,7 @@
 for x in range(0,100):
     print(x)
 
-#Ejericico 2
+#Ejercicio 2
 
 import math 
 #ingreso de datos
@@ -13,7 +13,7 @@ digitos = int(math.log10(numeroInt)) + 1
 #finalmente mostramos la cantidad de digitos
 print(f"El numero que ingreso tiene {digitos} digitos")
 
-#Ejericico 3
+#Ejercicio 3
 
 numero1 = int(input("ingrese un numero: "))
 numero2 = int(input("ingrese otro numero: "))
@@ -40,7 +40,7 @@ while numero_azar != 0:
 print(numero_azar)
 
 
-#Ejericcio 5
+#Ejercicio 5
 
 import random
 print("tienes que adivinar el numero aleatorio entre el 0 y el 9 ")
@@ -57,7 +57,7 @@ while numero_azar != 0:
 print(f"Necesitaste {intentos} intentos para acertar el numero")
     
 
-#Ejericcio 6
+#Ejercicio 6
 
 
 primos = 0
@@ -67,7 +67,7 @@ for num in range(100, -1, -2):
     
 
 
-#Ejericico 7
+#Ejercicio 7
 
 suma = 0
 numero = int(input("ingrese un numero: "))
@@ -77,7 +77,7 @@ for x in range(0,numero):
 print(f"La suma de todos los numero hasta el numero ingresado {suma}")
 
 
-#Ejericico 8
+#Ejercicio 8
 
 pares = 0
 impares = 0
@@ -114,7 +114,7 @@ print(f"Números impares: {impares}")
 print(f"Números positivos: {positivos}")
 print(f"Números negativos: {negativos}")
     
-#Ejericcio 9
+#Ejercicio 9
 
 cantidad_numeros = 5
 suma = 0
@@ -131,7 +131,7 @@ print("\nResultado:")
 print(f"La media de los numeros ingresados es: {media_numeros}")
 
     
-#Ejericicio 10
+#Ejercicio 10
 
 numero = int(input("Ingrese un número entero: "))
 
