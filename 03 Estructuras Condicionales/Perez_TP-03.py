@@ -99,7 +99,7 @@ print("opcion (2):Si quiere su nombre en minúsculas.")
 print("opcion (3):Si quiere su nombre con la primera letra mayúscula.")
 opciones = int(input("Seleccion: "))
 
-# Transformar el nombre según la opción seleccionada
+# Transformar el nombre según la Opción seleccionada
 if opciones == 1:
     nombre = nombre.upper()
     print(nombre)
